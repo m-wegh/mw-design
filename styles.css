@@ -1,0 +1,29 @@
+body {
+    display:flex
+}
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.head-top {
+    display:flex;
+    align-items: center;
+}
+.head-bottom {
+    display: flex;
+    flex: 1
+}   
+ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+li {
+    padding: 16px; 
+    justify-content: flex-end;
+}
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
